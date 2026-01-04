@@ -1,7 +1,35 @@
-# Telco Customer Churn — End-to-End Case Study
+# Telco Customer Churn Analysis
+
+## Project Overview
+An end-to-end customer churn analysis using a real-world telecom dataset.
+The project covers data cleaning, exploratory data analysis, feature engineering,
+churn prediction modeling, and actionable business recommendations.
+
+## Objective
+- Identify customers at high risk of churn
+- Understand key churn drivers
+- Provide data-driven retention strategies
+
+## Key Steps
+- Data cleaning and preparation
+- Exploratory Data Analysis (EDA)
+- Feature engineering
+- Classification modeling (Logistic Regression, Random Forest)
+- Model evaluation (ROC-AUC, Precision, Recall)
+- Post-prediction error analysis
+- Business recommendations
+
+## Tools & Technologies
+- Python (pandas, numpy, scikit-learn, matplotlib)
+- Jupyter Notebook
+- GitHub
+
+## Key Insights
+- Month-to-month contracts have the highest churn
+- Early tenure customers (first 12 months) are
 
 ## What’s inside
-- `Telco_Churn_Case_Study.ipynb` — narrative notebook (problem → cleaning → EDA → feature engineering → modelling → recommendations)
+- `Telco_Churn_Case_Study.ipynb` — narrative notebook (problem - cleaning - EDA - feature engineering - modelling - recommendations)
 - `churn_analysis.py` — runnable python script version (baseline Logistic Regression pipeline)
 
 ## Setup
